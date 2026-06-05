@@ -1,4 +1,4 @@
-! Controller parameter input file for the NREL20kW turbine
+! Controller parameter input file for the NLR20kW turbine
 !    - File written using ROSCO version 2.5.0 controller tuning logic on 09/27/22
 
 !------- DEBUG ------------------------------------------------------------

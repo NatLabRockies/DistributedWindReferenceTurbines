@@ -1,5 +1,5 @@
 ------- SERVODYN v1.05.* INPUT FILE --------------------------------------------
-FAST certification Test #15: FAST model of a SWRT 3-bladed upwind turbine.  Note- SWRT rotates in CCW direction- some inputs will be mirror image of the actual turbine. Model properties from "SWRTv1p2.adm" and SWRT "AdamsWT_MakeBladeDat_v12.xls".  JEM Jan., 2004.  Updated by J. Jonkman, NREL, Feb, 2004.
+ServoDyn model of NLR20kW turbine 
 ---------------------- SIMULATION CONTROL --------------------------------------
 False         Echo         - Echo input data to <RootName>.ech (flag)
 "DEFAULT"   DT           - Communication interval for controllers (s) (or "default")

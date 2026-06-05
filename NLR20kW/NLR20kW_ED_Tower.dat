@@ -1,5 +1,5 @@
 ------- ELASTODYN V1.00.* TOWER INPUT FILE -------------------------------------
-Elastodyn Tower model of NREL20kW
+Elastodyn Tower model of NLR20kW
 ---------------------- TOWER PARAMETERS ----------------------------------------
    11         NTwInpSt    - Number of input stations to specify tower geometry
    1.0        TwrFADmp(1)  - Tower 1st fore-aft mode structural damping ratio (%)

@@ -1,5 +1,5 @@
 ------- ELASTODYN V1.00.* INDIVIDUAL BLADE INPUT FILE --------------------------
-Elastodyn blade model of NREL20kW turbine
+Elastodyn blade model of NLR20kW turbine
 ---------------------- BLADE PARAMETERS ----------------------------------------
          13   NBlInpSt    - Number of blade input stations (-)
           3   BldFlDmp(1) - Blade flap mode #1 structural damping in percent of critical (%)
