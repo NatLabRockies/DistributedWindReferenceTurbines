@@ -1,5 +1,5 @@
 ------- AERODYN INPUT FILE --------------------------------------------------------------------------
-AeroDyn model of NREL-15kW turbine 
+AeroDyn model of NLR-15kW turbine 
 ======  General Options  ============================================================================
 False                  Echo        - Echo the input to "<rootname>.AD.ech"? (flag)
 default                DTAero      - Time interval for aerodynamic calculations {or "default"} (s)
@@ -66,9 +66,9 @@ True                   FLookup     - Flag to indicate whether a lookup for f' wi
 "AeroData/Airfoil_5.dat"
 ======  Rotor/Blade Properties  =====================================================================
 True                   UseBlCm     - Include aerodynamic pitching moment in calculations? (flag)
-"NREL15kW_AD_Blade.dat" ADBlFile(1) - Name of file containing distributed aerodynamic properties for Blade #1 (-)
-"NREL15kW_AD_Blade.dat" ADBlFile(2) - Name of file containing distributed aerodynamic properties for Blade #2 (-) [unused if NumBl < 2]
-"NREL15kW_AD_Blade.dat" ADBlFile(3) - Name of file containing distributed aerodynamic properties for Blade #3 (-) [unused if NumBl < 3]
+"NLR15kW_AD_Blade.dat" ADBlFile(1) - Name of file containing distributed aerodynamic properties for Blade #1 (-)
+"NLR15kW_AD_Blade.dat" ADBlFile(2) - Name of file containing distributed aerodynamic properties for Blade #2 (-) [unused if NumBl < 2]
+"NLR15kW_AD_Blade.dat" ADBlFile(3) - Name of file containing distributed aerodynamic properties for Blade #3 (-) [unused if NumBl < 3]
 ======  Hub Properties ============================================================================== [used only when Buoyancy=True]
 0.0           VolHub      - Hub volume (m^3)
 0.0           HubCenBx    - Hub center of buoyancy x direction offset (m)
@@ -80,7 +80,7 @@ True                   UseBlCm     - Include aerodynamic pitching moment in calc
 0, 0, 0       NacDragAC          - Position of aerodynamic center of nacelle drag in nacelle coordinates (m)
 ======  Tail fin Aerodynamics ======================================================================== 
 True                   TFinAero    - Calculate tail fin aerodynamics model (flag)
-"NREL15kW_AD_TailFin.dat" TFinFile    - Input file for tail fin aerodynamics [used only when TFinAero=True]
+"NLR15kW_AD_TailFin.dat" TFinFile    - Input file for tail fin aerodynamics [used only when TFinAero=True]
 =====  Tower Influence and Aerodynamics ============================================================= [used only when TwrPotent/=0, TwrShadow/=0, or TwrAero=True]
 2                      NumTwrNds   - Number of tower nodes used in the analysis (-) [used only when TwrPotent/=0, TwrShadow/=0, or TwrAero=True]
 TwrElev        TwrDiam        TwrCd          TwrTI          TwrCb         !TwrTI used only with TwrShadow=2, TwrCb used only with Buoyancy=True

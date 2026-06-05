@@ -1,5 +1,5 @@
 ------- OpenFAST 4.1.2 INPUT FILE ------------------------------------------------
-NREL-15kW turbine
+NLR15kW turbine
 ---------------------- SIMULATION CONTROL --------------------------------------
 False               	Echo            - Echo input data to <RootName>.ech (flag)
 "FATAL"             	AbortLevel      - Error level when simulation should abort (string) {"WARNING", "SEVERE", "FATAL"}
@@ -31,13 +31,13 @@ False               	Echo            - Echo input data to <RootName>.ech (flag)
 200                  	WtrDpth     - Water depth (m)
 0                    	MSL2SWL     - Offset between still-water level and mean sea level (m) [positive upward]
 ---------------------- INPUT FILES ---------------------------------------------
-"NREL15kW_ED.dat"    	EDFile          - Name of file containing ElastoDyn input parameters (quoted string)
+"NLR15kW_ED.dat"    	EDFile          - Name of file containing ElastoDyn input parameters (quoted string)
 ""                		BDBldFile(1)    - Name of file containing BeamDyn input parameters for blade 1 (quoted string)
 ""                		BDBldFile(2)    - Name of file containing BeamDyn input parameters for blade 2 (quoted string)
 ""                		BDBldFile(3)    - Name of file containing BeamDyn input parameters for blade 3 (quoted string)
-"NREL15kW_IFW.dat"    InflowFile      - Name of file containing inflow wind input parameters (quoted string)
-"NREL15kW_AD.dat"     AeroFile        - Name of file containing aerodynamic input parameters (quoted string)
-"NREL15kW_SD.dat"    	ServoFile       - Name of file containing control and electrical-drive input parameters (quoted string)
+"NLR15kW_IFW.dat"    InflowFile      - Name of file containing inflow wind input parameters (quoted string)
+"NLR15kW_AD.dat"     AeroFile        - Name of file containing aerodynamic input parameters (quoted string)
+"NLR15kW_SD.dat"    	ServoFile       - Name of file containing control and electrical-drive input parameters (quoted string)
 "NA"                  SeaStFile       - Name of file containing sea state input parameters (quoted string)
 "none"            		HydroFile       - Name of file containing hydrodynamic input parameters (quoted string)
 "none"            		SubFile         - Name of file containing sub-structural input parameters (quoted string)

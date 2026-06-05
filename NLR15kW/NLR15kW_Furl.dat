@@ -1,5 +1,5 @@
 ---------------------- FAST FURLING FILE ---------------------------------------
-NREL 15kW: Furling file
+NLR 15kW: Furling file
 ---------------------- FEATURE FLAGS (CONT) ------------------------------------
 False       RFrlDOF     - Rotor-furl DOF (flag)
 False        TFrlDOF     - Tail-furl DOF (flag)

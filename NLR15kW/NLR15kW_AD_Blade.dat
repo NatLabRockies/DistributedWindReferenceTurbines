@@ -1,5 +1,5 @@
 ------- AERODYN v15.00.* BLADE DEFINITION INPUT FILE -------------------------------------
-NREL-15 kW Reference Turbine
+NLR-15 kW Reference Turbine
 ======  Blade Properties =================================================================
 16          NumBlNds    - Number of blade nodes used in the analysis (-)
  BlSpn       BlCrvAC     BlSwpAC      BlCrvAng     BlTwist     BlChord   BlAFID   BlCb     BlCenBn     BlCenBt

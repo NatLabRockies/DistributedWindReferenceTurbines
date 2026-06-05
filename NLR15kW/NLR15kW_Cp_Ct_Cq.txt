@@ -1,4 +1,4 @@
-# ----- Rotor performance tables for the NREL15kW wind turbine ----- 
+# ----- Rotor performance tables for the NLR15kW wind turbine ----- 
 # ------------ Written on Sep-30-25 using the ROSCO toolbox ------------ 
 
 # Pitch angle vector, 36 entries - x axis (matrix columns) (deg)
