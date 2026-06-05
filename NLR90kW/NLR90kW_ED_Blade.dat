@@ -1,0 +1,54 @@
+------- ELASTODYN V1.00.* INDIVIDUAL BLADE INPUT FILE --------------------------
+FWTC 2024: Blade created from Beamdyn Representation, assuming tension center=elastic center=shear center @ pitch axis = ref axis; Note PitchAxis does not matter, as we use AD15
+---------------------- BLADE PARAMETERS ----------------------------------------
+20                           NBlInpSt    - Number of blade input stations (-)
+2             BldFlDmp(1) - Blade flap mode #1 structural damping in percent of critical (%)
+2             BldFlDmp(2) - Blade flap mode #2 structural damping in percent of critical (%)
+2             BldEdDmp(1) - Blade edge mode #1 structural damping in percent of critical (%)
+---------------------- BLADE ADJUSTMENT FACTORS --------------------------------
+1.0                  FlStTunr(1) - Blade flapwise modal stiffness tuner, 1st mode (-)
+1.0                  FlStTunr(2) - Blade flapwise modal stiffness tuner, 2nd mode (-)
+1                           AdjBlMs     - Factor to adjust blade mass density (-)
+1                           AdjFlSt     - Factor to adjust blade flap stiffness (-)
+1                           AdjEdSt     - Factor to adjust blade edge stiffness (-)
+---------------------- DISTRIBUTED BLADE PROPERTIES ----------------------------
+    BlFract      PitchAxis      StrcTwst       BMassDen        FlpStff        EdgStff
+      (-)           (-)          (deg)          (kg/m)         (Nm^2)         (Nm^2)
+0                   0.5         1.16E+01       144.19       4.2300E+07        4.2300E+07
+0.019933            0.5         1.16E+01       127.37       4.4700E+07        4.4700E+07
+0.090407            0.25        6.72E+00       53.46       1.9166E+07        2.7789E+07
+0.116132            0.25        9.22E+00       50.68       1.6165E+07        2.9367E+07
+0.147269            0.25        9.84E+00       46.64       1.3906E+07        3.0229E+07
+0.168               0.25        9.88E+00       45.66       1.2617E+07        2.8612E+07
+0.219833            0.25        9.93E+00       43.11       9.8574E+06        2.4364E+07
+0.323502            0.25        9.24E+00       37.39       5.6767E+06        1.5728E+07
+0.427162            0.25        8.21E+00       31.18       2.9444E+06        9.6308E+06
+0.478995            0.25        7.55E+00       27.71       2.0212E+06        7.3302E+06
+0.530829            0.25        6.70E+00       25.37       1.3068E+06        5.4600E+06
+0.582662            0.25        6.04E+00       23.16       8.0754E+05        4.0112E+06
+0.634489            0.25        4.86E+00       19.65       4.4766E+05        2.8034E+06
+0.686315            0.25        3.71E+00       15.64       2.2373E+05        1.7498E+06
+0.738167            0.25        2.78E+00       11.54       1.0315E+05        1.0696E+06
+0.790049            0.25        2.23E+00       9.3         4.6154E+04        6.2521E+05
+0.842029            0.25        1.74E+00       7.71        1.9484E+04        3.4140E+05
+0.894247            0.25        1.11E+00       5.22        5.5101E+03        1.2206E+05
+0.946811            0.25        6.34E-01       3.38        1.1306E+03        3.2262E+04
+1                   0.25        4.44E-01       1.99        1.4721E+02        7.8490E+03
+---------------------- BLADE MODE SHAPES ---------------------------------------
+0.3747     BldFl1Sh(2) - Flap mode 1, coeff of x^2
+-2.1277    BldFl1Sh(3) -            , coeff of x^3
+7.9207     BldFl1Sh(4) -            , coeff of x^4
+-11.0372   BldFl1Sh(5) -            , coeff of x^5
+5.8695     BldFl1Sh(6) -            , coeff of x^6
+2.3636     BldFl2Sh(2) - Flap mode 2, coeff of x^2
+-22.7035   BldFl2Sh(3) -            , coeff of x^3
+67.5892    BldFl2Sh(4) -            , coeff of x^4
+-85.7872   BldFl2Sh(5) -            , coeff of x^5
+39.5378    BldFl2Sh(6) -            , coeff of x^6
+0.7752     BldEdgSh(2) - Edge mode 1, coeff of x^2
+-1.7052     BldEdgSh(3) -            , coeff of x^3
+4.4003     BldEdgSh(4) -            , coeff of x^4
+-3.0987     BldEdgSh(5) -            , coeff of x^5
+0.6285     BldEdgSh(6) -            , coeff of x^6
+
+

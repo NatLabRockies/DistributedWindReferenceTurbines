@@ -1,1 +1,1 @@
-# NREL 90 kW
+# NLR 90 kW
