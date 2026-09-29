@@ -16,7 +16,7 @@ default     		DT           - Communication interval for controllers (s) (or "def
 0.0           		BlPitchF(2)  - Blade 2 final pitch for pitch maneuvers (degrees)
 0.0           		BlPitchF(3)  - Blade 3 final pitch for pitch maneuvers (degrees) [unused for 2 blades]
 ---------------------- GENERATOR AND TORQUE CONTROL ----------------------------
-3            		  VSContrl     - Variable-speed control mode {0: none, 1: simple VS, 3: user-defined from routine UserVSCont, 4: user-defined from Simulink/Labview, 5: user-defined from Bladed-style DLL} (switch)
+5            		  VSContrl     - Variable-speed control mode {0: none, 1: simple VS, 3: user-defined from routine UserVSCont, 4: user-defined from Simulink/Labview, 5: user-defined from Bladed-style DLL} (switch)
 1            		  GenModel     - Generator model {1: simple, 2: Thevenin, 3: user-defined from routine UserGen} (switch) [used only when VSContrl=0]
 86.4              GenEff       - Generator efficiency [ignored by the Thevenin and user-defined generator models] (%)
 True          		GenTiStr     - Method to start the generator {T: timed using TimGenOn, F: generator speed using SpdGenOn} (flag)
@@ -74,7 +74,7 @@ True          		GenTiStp     - Method to stop the generator {T: timed using TimG
 ---------------------- CABLE CONTROL ----------------------------------------
 0                      	CCmode      - Cable control mode {0- none, 4- user-defined from Simulink/Labview, 5- user-defineAfC_phased from Bladed-style DLL}
 ---------------------- BLADED INTERFACE ---------------------------------------- [used only with Bladed Interface]
-"libdiscon_2.10.1.so"  		DLL_FileName - Name/location of the dynamic library {.dll [Windows] or .so [Linux]} in the Bladed-DLL format (-) [used only with Bladed Interface]
+"libdiscon.so"  		DLL_FileName - Name/location of the dynamic library {.dll [Windows] or .so [Linux]} in the Bladed-DLL format (-) [used only with Bladed Interface]
 "NLR15kW_DISCON.IN"   		DLL_InFile   - Name of input file sent to the DLL (-) [used only with Bladed Interface]
 "DISCON"      		DLL_ProcName - Name of procedure in DLL to be called (-) [case sensitive; used only with DLL Interface]
 default       		DLL_DT       - Communication interval for dynamic library (s) (or "default") [used only with Bladed Interface]
@@ -105,6 +105,7 @@ True          TabDelim     - Use tab delimiters in text tabular output file? (fl
           0   TStart       - Time to begin tabular output (s) (currently unused)
               OutList      - The next line(s) contains a list of output parameters.  See OutListParameters.xlsx for a listing of available output channels, (-)
 "GenPwr"
+"GenTq"
 END of ServoDyn input file (the word "END" must appear in the first 3 columns of this last line).
 ---------------------------------------------------------------------------------------
 
